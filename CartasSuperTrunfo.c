@@ -2,19 +2,27 @@
 
 int main() {
     //carta 1
-    char estado = 'c';
-    char codigoDaCarta[20] = "A01";
-    char nomeDaCidade[50] = "Fortaleza";
-    int populacao = 2000000;
-    float area = 10000000;
-    float pib = 30000000;
-    int pontosTuristicos = 50;
-
     printf("Digite o nome do Estado: \n");
-    scanf(" %c", &estado);
+    scanf("%s", &estado);
 
     printf("Digite o código da Carta: \n");
-    scanf(" %s", codigoDaCarta);
+    scanf("%18s", &codigoDaCarta);
 
+    printf("Digite o nome da Cidade: \n");
+    scanf(" %49s", nomeDaCidade);
+
+    printf("Digite a população: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite a área: \n");
+    scanf("%f", &area);
+
+    printf("digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite pontos turísticos: \n");
+    scanf("%d", &pontosTuristicos);
+
+    return 0;
 
 }
