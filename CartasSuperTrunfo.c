@@ -2,6 +2,14 @@
 
 int main() {
     //carta 1
+    char estado [3]=;
+    char codigoDaCarta[19];
+    char nomeDaCidade[50];
+    int populacao;
+    float area;
+    float pib;
+    int pontosTuristicos;
+    
     printf("Digite o nome do Estado: \n");
     scanf("%s", &estado);
 
@@ -22,7 +30,5 @@ int main() {
 
     printf("Digite pontos turísticos: \n");
     scanf("%d", &pontosTuristicos);
-
-    return 0;
 
 }
