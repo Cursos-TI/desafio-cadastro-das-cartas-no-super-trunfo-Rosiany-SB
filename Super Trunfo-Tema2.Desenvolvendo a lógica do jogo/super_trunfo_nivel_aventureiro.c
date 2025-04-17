@@ -4,6 +4,7 @@ int main() {
     /*
     Super Trunfo - Nível Aventureiro
     Adiciona menu interativo para escolha do atributo de comparação
+    Foco em switch
     */
 
     // Dados das cartas (pré-cadastrados)
